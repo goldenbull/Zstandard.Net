@@ -4,16 +4,19 @@
     <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
     <RootNamespace>Zstandard.Net</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>bp74</Authors>
-    <Company>bp74</Company>
-    <Description>A ZstandardStream implementation on top of the native Zstandard libraries.</Description>
-    <PackageProjectUrl>https://github.com/bp74/Zstandard.Net</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/bp74/Zstandard.Net/blob/master/LICENSE</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/bp74/Zstandard.Net</RepositoryUrl>
+    <Authors>goldenbull</Authors>
+    <Company>goldenbull</Company>
+    <Description>A ZstandardStream implementation on top of the native Zstandard libraries.
+forked from https://github.com/bp74/Zstandard.Net, sync with zstd-1.4.4</Description>
+    <PackageProjectUrl>https://github.com/goldenbull/Zstandard.Net</PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/goldenbull/Zstandard.Net</RepositoryUrl>
     <PackageTags>Compression Stream Zstandard Zstd</PackageTags>
-    <PackageReleaseNotes>fixed unmanaged resource leak
-</PackageReleaseNotes>
-    <Version>1.1.7</Version>
+    <PackageReleaseNotes>sync with zstd-1.4.4</PackageReleaseNotes>
+    <Version>1.4.4</Version>
+    <PackageLicenseExpression>BSD-4-Clause</PackageLicenseExpression>
+    <PackageId>Zstandard2.Net</PackageId>
+    <Product>Zstandard2.Net</Product>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -32,7 +35,7 @@
 	</ItemGroup>
   
 	<ItemGroup>
-	  <PackageReference Include="System.Buffers" Version="4.5.0" />
+	  <PackageReference Include="System.Buffers" Version="4.5.1" />
 	</ItemGroup>
 
 </Project>
